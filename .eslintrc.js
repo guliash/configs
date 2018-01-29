@@ -1,6 +1,6 @@
 module.exports = {
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 8,
     "sourceType": "module",
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true
@@ -16,6 +16,7 @@ module.exports = {
     "no-trailing-spaces": ["error"],
     "comma-dangle": ["error", "never"],
     "semi": ["error", "always"],
-    "object-curly-spacing": ["error", "always"]
+    "object-curly-spacing": ["error", "always"],
+    "keyword-spacing": "error"
   }
 };
